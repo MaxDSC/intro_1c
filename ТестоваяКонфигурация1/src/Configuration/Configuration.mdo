@@ -38,5 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.РандомайзерВызовСервера</commonModules>
+  <commonForms>CommonForm.ФормаДляПроверкиБанковскогоСчета</commonForms>
   <catalogs>Catalog.НомераТелефонов</catalogs>
 </mdclass:Configuration>
