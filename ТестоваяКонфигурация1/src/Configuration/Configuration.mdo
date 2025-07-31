@@ -38,7 +38,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Рандомайзер</subsystems>
+  <commonModules>CommonModule.ПростыеЗапросы</commonModules>
   <commonModules>CommonModule.РандомайзерВызовСервера</commonModules>
   <commonForms>CommonForm.ФормаДляПроверкиБанковскогоСчета</commonForms>
+  <catalogs>Catalog.КодыВалютДляРасчетныхСчетов</catalogs>
+  <catalogs>Catalog.КодыРасчетногоСчета</catalogs>
   <catalogs>Catalog.НомераТелефонов</catalogs>
 </mdclass:Configuration>

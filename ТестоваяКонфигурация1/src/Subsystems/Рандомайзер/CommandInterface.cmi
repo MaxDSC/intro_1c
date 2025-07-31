@@ -3,16 +3,12 @@
   <commandsPlacement>
     <placementFragments>
       <group>ActionsPanelCreate</group>
-      <commands>Catalog.НомераТелефонов.StandardCommand.Create</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>NavigationPanelOrdinary</group>
-      <commands>Catalog.НомераТелефонов.StandardCommand.OpenList</commands>
+      <commands>CommonForm.ФормаДляПроверкиБанковскогоСчета.StandardCommand.Open</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>ActionsPanelTools</group>
+      <group>ActionsPanelCreate</group>
       <commands>CommonForm.ФормаДляПроверкиБанковскогоСчета.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
