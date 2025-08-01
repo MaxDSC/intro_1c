@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea8152fd-2c8a-48c1-85d5-eea0dfc4741f">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfe0396a-d055-4c42-86ff-c81396ebf5a3">
   <producedTypes>
-    <objectType typeId="7b32cf3a-1542-45bf-a68c-2479ae29fc1f" valueTypeId="ee049519-f8a0-494f-babe-33a0bf828be4"/>
-    <refType typeId="a474e13a-2ef7-41c9-a9f8-9271367c7fcd" valueTypeId="34d231c0-0383-4714-8420-9de92a62bdd0"/>
-    <selectionType typeId="1d0d37bc-47ea-44d9-b69a-7cc1d40a892e" valueTypeId="91655346-6798-4336-9f1b-3f5904505903"/>
-    <listType typeId="de267657-bece-4833-94f7-f5bd267e454e" valueTypeId="d4924b2e-cfc4-439b-bec9-ca30f9ce5313"/>
-    <managerType typeId="b0319eb6-10c4-46ce-a117-f418ab0b3673" valueTypeId="d0edb1d1-b9f7-4ff1-9b98-a3dcceef8d40"/>
+    <objectType typeId="735a3bdc-1bff-4847-b79e-142313330b00" valueTypeId="4b2aa132-205e-41e3-9f8e-79ae6ac287cd"/>
+    <refType typeId="11a702d7-f9a2-475c-b1fd-13048ee8c550" valueTypeId="4e392e30-95d6-4f94-aad4-6b9d4b2ccb3b"/>
+    <selectionType typeId="1bcbbf58-470e-4308-bb8d-c3d4fff31690" valueTypeId="4684c9f4-f54e-4390-8dd9-ba0ed73f2d55"/>
+    <listType typeId="9637c86e-64f7-4b7e-a7e3-e9ac541cee68" valueTypeId="c9b7d90a-fdb8-4bf3-8d42-7b0d6e09d2d5"/>
+    <managerType typeId="17ce42b7-1864-41ec-9c1f-9a0cd0d5c67c" valueTypeId="d59ad362-4e9d-49a1-b1cf-128f957f3e23"/>
   </producedTypes>
-  <name>НомераТелефонов</name>
+  <name>ОператорыМобильнойСвязи</name>
   <synonym>
     <key>ru</key>
-    <value>Номера телефонов</value>
+    <value>Операторы мобильной связи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.НомераТелефонов.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.НомераТелефонов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОператорыМобильнойСвязи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОператорыМобильнойСвязи.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -77,7 +77,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>ФИО</value>
+      <value>Название оператора</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -98,12 +98,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Телефоны</value>
+    <value>Оператор мобильной связи</value>
   </objectPresentation>
-  <extendedObjectPresentation>
-    <key>ru</key>
-    <value>Телефоны клиентов</value>
-  </extendedObjectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -115,47 +111,68 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.НомераТелефонов.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="fcf74e9d-3a9c-4990-b75e-c28893982d5b">
-    <name>Номер</name>
+  <defaultObjectForm>Catalog.ОператорыМобильнойСвязи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОператорыМобильнойСвязи.Form.ФормаСписка</defaultListForm>
+  <tabularSections uuid="57616e94-62a6-4684-baad-ce22a90fb42b">
+    <producedTypes>
+      <objectType typeId="53374878-752d-4773-b2f7-2c1341c46693" valueTypeId="f26a8a2e-54ec-407e-840d-390d8209fb25"/>
+      <rowType typeId="a259808d-02de-4685-8177-0ed6fae71dde" valueTypeId="d73df796-69fe-4f1d-8bd9-2ec87d101eaa"/>
+    </producedTypes>
+    <name>ТелефонныеКоды</name>
     <synonym>
       <key>ru</key>
-      <value>Номер</value>
+      <value>Телефонные коды</value>
     </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>18</length>
-        <fixed>true</fixed>
-      </stringQualifiers>
-    </type>
-    <mask>\+\7 (999) 999 99-99</mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="96b5fa91-a9a4-4a18-9b97-3bfb81a95c8e">
-    <name>Оператор</name>
+    <attributes uuid="65fe42f6-52cd-4083-b58b-c582bc55ca16">
+      <name>КодОператора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код оператора</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f32e42c4-2d48-4f47-8e4e-7fee90dbc5ca">
+      <name>Регион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="267ad026-f3db-41ca-91ac-44dd68337875">
+    <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
-      <value>Оператор</value>
+      <value>Форма списка</value>
     </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>25</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="5f0292c1-9905-4442-aae5-16e95207a313">
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b459249e-d4c8-464f-a9cf-57bd9437ed9f">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

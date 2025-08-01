@@ -7,6 +7,7 @@
   </synonym>
   <comment>Содержит данные и функции необходимые для генерации случайных значений</comment>
   <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.РандомайзерВызовСервера</content>
   <content>CommonForm.ФормаДляПроверкиБанковскогоСчета</content>
 </mdclass:Subsystem>
