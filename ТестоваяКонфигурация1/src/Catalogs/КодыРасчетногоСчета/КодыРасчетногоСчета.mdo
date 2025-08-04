@@ -89,13 +89,8 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <synonym>
-      <key>ru</key>
-      <value>КодПервогоПорядка</value>
-    </synonym>
-    <comment>Первые три цифры. с которых начинается расчетный счет</comment>
+    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -105,12 +100,37 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>3</codeLength>
+  <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КодыРасчетногоСчета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КодыРасчетногоСчета.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="32ff0467-e207-46f8-b249-1db2e3259776">
+    <name>КодПервогоПорядка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код первого порядка</value>
+    </synonym>
+    <comment>Первые три цифры. с которых начинается расчетный счет</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="89af8919-94f1-49e9-afeb-ad4d298f1bda">
     <producedTypes>
       <objectType typeId="20ba150f-6798-47a1-8fd1-6b45887bddd8" valueTypeId="15777330-b70b-4c9c-ab51-6e14adb2e6a6"/>
@@ -150,4 +170,22 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="75e4a1b5-342c-4a68-9a2a-ee9137ad3f72">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b7fd991d-5e84-443f-abe6-afcd4dcb0604">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

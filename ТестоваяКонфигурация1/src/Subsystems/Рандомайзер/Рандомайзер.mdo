@@ -10,4 +10,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.РандомайзерВызовСервера</content>
   <content>CommonForm.ФормаДляПроверкиБанковскогоСчета</content>
+  <content>Catalog.КодыВалютДляРасчетныхСчетов</content>
+  <content>Catalog.КодыРасчетногоСчета</content>
 </mdclass:Subsystem>
