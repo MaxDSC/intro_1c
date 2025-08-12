@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ebdf622-4b6f-4187-b895-ed705b9d0187">
+  <producedTypes>
+    <objectType typeId="82172282-d42e-481d-95a8-095e6829ec6f" valueTypeId="3c1c1e52-1a12-4a33-8a99-09c1e0304084"/>
+    <refType typeId="8d8f80ca-4e85-48a9-98e3-8ad7f2786a6a" valueTypeId="c0a4f887-0a84-4472-8270-08340beccc0c"/>
+    <selectionType typeId="9d68c477-c138-4589-89e5-b982ec29c67c" valueTypeId="c6641892-08a1-48a9-9c13-51a4510817c4"/>
+    <listType typeId="dccaa323-c286-4a22-a6c3-1e090dc0c74c" valueTypeId="328422ca-e5b6-4de9-a52d-0759b8d3f00f"/>
+    <managerType typeId="0f6aa776-7bd6-4508-ae9c-095e1626fbdf" valueTypeId="192222f5-66ae-43a1-be71-75911aaf72ad"/>
+  </producedTypes>
+  <name>КодыРасчетногоСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды расчетного счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КодыРасчетногоСчета.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КодыРасчетногоСчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название раздела</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КодыРасчетногоСчета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КодыРасчетногоСчета.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="32ff0467-e207-46f8-b249-1db2e3259776">
+    <name>КодПервогоПорядка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код первого порядка</value>
+    </synonym>
+    <comment>Первые три цифры. с которых начинается расчетный счет</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="89af8919-94f1-49e9-afeb-ad4d298f1bda">
+    <producedTypes>
+      <objectType typeId="20ba150f-6798-47a1-8fd1-6b45887bddd8" valueTypeId="15777330-b70b-4c9c-ab51-6e14adb2e6a6"/>
+      <rowType typeId="f2837557-b623-4a1e-9d97-bc9eeafa9d4c" valueTypeId="59734855-a3af-4d89-93b7-dfa79bdba8d1"/>
+    </producedTypes>
+    <name>КодыВторогоПорядка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды второго порядка</value>
+    </synonym>
+    <attributes uuid="6067cf48-da30-42b5-9d2c-f01ee5e8d6ee">
+      <name>КодВторогоПорядка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код второго порядка</value>
+      </synonym>
+      <comment>третья и четвертая цифры в расчетном счете</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧЦ=2; ЧВН=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧЦ=2; ЧВН=</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="75e4a1b5-342c-4a68-9a2a-ee9137ad3f72">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b7fd991d-5e84-443f-abe6-afcd4dcb0604">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88884248-e622-4162-b768-f740ebf50bfc">
+  <name>Рандомайзер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рандомайзер</value>
+  </synonym>
+  <comment>Содержит данные и функции необходимые для генерации случайных значений</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РандомайзерВызовСервера</content>
+  <content>CommonForm.ФормаДляПроверкиБанковскогоСчета</content>
+  <content>Catalog.КодыВалютДляРасчетныхСчетов</content>
+  <content>Catalog.КодыРасчетногоСчета</content>
+</mdclass:Subsystem>

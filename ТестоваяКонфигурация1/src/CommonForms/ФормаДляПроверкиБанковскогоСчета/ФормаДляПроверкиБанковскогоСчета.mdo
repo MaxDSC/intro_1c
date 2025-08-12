@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b1bf561-6016-4853-9375-b5ede27ac82b">
+  <name>ФормаДляПроверкиБанковскогоСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма для проверки банковского счета</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

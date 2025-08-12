@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc8dbe52-a704-47d9-97ff-50288d1e06e8">
+  <name>Телефония</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телефония</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ОператорыМобильнойСвязи</content>
+  <content>Catalog.ТелефонныеНомера</content>
+</mdclass:Subsystem>

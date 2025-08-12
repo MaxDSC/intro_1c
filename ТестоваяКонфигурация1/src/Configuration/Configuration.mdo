@@ -38,5 +38,14 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <catalogs>Catalog.НомераТелефонов</catalogs>
+  <subsystems>Subsystem.Рандомайзер</subsystems>
+  <subsystems>Subsystem.Телефония</subsystems>
+  <commonModules>CommonModule.ДиалогКлиент</commonModules>
+  <commonModules>CommonModule.ПростыеЗапросы</commonModules>
+  <commonModules>CommonModule.РандомайзерВызовСервера</commonModules>
+  <commonForms>CommonForm.ФормаДляПроверкиБанковскогоСчета</commonForms>
+  <catalogs>Catalog.КодыВалютДляРасчетныхСчетов</catalogs>
+  <catalogs>Catalog.КодыРасчетногоСчета</catalogs>
+  <catalogs>Catalog.ОператорыМобильнойСвязи</catalogs>
+  <catalogs>Catalog.ТелефонныеНомера</catalogs>
 </mdclass:Configuration>
