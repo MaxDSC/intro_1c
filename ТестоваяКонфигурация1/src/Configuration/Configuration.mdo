@@ -38,14 +38,20 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Организация</subsystems>
   <subsystems>Subsystem.Рандомайзер</subsystems>
   <subsystems>Subsystem.Телефония</subsystems>
+  <commonPictures>CommonPicture.ИконкаПоиск32</commonPictures>
   <commonModules>CommonModule.ДиалогКлиент</commonModules>
+  <commonModules>CommonModule.ОбработкаJSONВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбработкаJSONКлиент</commonModules>
   <commonModules>CommonModule.ПростыеЗапросы</commonModules>
   <commonModules>CommonModule.РандомайзерВызовСервера</commonModules>
   <commonForms>CommonForm.ФормаДляПроверкиБанковскогоСчета</commonForms>
   <catalogs>Catalog.КодыВалютДляРасчетныхСчетов</catalogs>
   <catalogs>Catalog.КодыРасчетногоСчета</catalogs>
   <catalogs>Catalog.ОператорыМобильнойСвязи</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ТелефонныеНомера</catalogs>
+  <enums>Enum.ВидыОрганизаций</enums>
 </mdclass:Configuration>
