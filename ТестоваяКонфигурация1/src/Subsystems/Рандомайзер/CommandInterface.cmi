@@ -10,6 +10,8 @@
     <orderFragments>
       <group>ActionsPanelCreate</group>
       <commands>CommonForm.ФормаДляПроверкиБанковскогоСчета.StandardCommand.Open</commands>
+      <commands>Catalog.КодыВалютДляРасчетныхСчетов.StandardCommand.Create</commands>
+      <commands>Catalog.КодыРасчетногоСчета.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

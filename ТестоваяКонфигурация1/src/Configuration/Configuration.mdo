@@ -15,6 +15,11 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -47,6 +52,7 @@
   <commonModules>CommonModule.ОбработкаJSONКлиент</commonModules>
   <commonModules>CommonModule.ПростыеЗапросы</commonModules>
   <commonModules>CommonModule.РандомайзерВызовСервера</commonModules>
+  <commonForms>CommonForm.ПродвинутыйКалькулятор</commonForms>
   <commonForms>CommonForm.ФормаДляПроверкиБанковскогоСчета</commonForms>
   <catalogs>Catalog.КодыВалютДляРасчетныхСчетов</catalogs>
   <catalogs>Catalog.КодыРасчетногоСчета</catalogs>
